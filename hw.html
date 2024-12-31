@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Carousel Example</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+            <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Codingal</a>
+            </div>
+            <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                    <li><a href="#section1">Section 1</a></li>
+                                    <li><a href="#section2">Section 2</a></li>
+                            </ul>
+                    </div>
+            </div>
+    </div>
+</nav>
+
+<div class="container">
+  <h2>Carousel Example</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <center>
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1">   </li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  <h1>Section 1</h1>
+    
+    <div class="carousel-inner">
+     
+      <div class="item active">
+        <img src="meesi.jpg" alt="messi ameture">
+      </div>
+
+      <div class="item">
+        <img src="messi3.jpg" alt="messi developing">
+      </div>
+    
+      <div class="item">
+        <img src="messi2.jpg" alt="messi developed">
+      </div>
+      
+    </div>
+
+    <!-- Left and right controls -->
+     <!--left carousel-control adds left button
+     data-slide="prev"  moves to previous slide
+     "sr-only" hide all content from devices other than screen readers.-->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </center>
+  </div>
+  <h1>Section2</h1>
+ <p>Messi was born on 24 June 1987 in Rosario, Santa Fe Province,[21] the third of four children of Jorge Messi,
+     a steel factory manager, and his wife Celia Cuccittini, who worked in a magnet manufacturing workshop. On his father's side,
+      he is of Italian and Spanish descent, the great-grandson of immigrants from the north-central Adriatic Marche region of Italy,
+       and on his mother's side, he has primarily Italian ancestry.[3] Growing up in a tight-knit, football-loving family,
+        "Leo" developed a passion for the sport from an early age, playing constantly with his older brothers, Rodrigo and Matías,
+         and his cousins, Maximiliano and Emanuel Biancucchi, both of whom became professional footballers.
+         [22] At the age of four he joined local club Grandoli, where he was coached by his father,
+          though his earliest influence as a player came from his maternal grandmother, Celia, who accompanied him to training and matches.
+          [23] He was greatly affected by her death, shortly before his eleventh birthday; since then, as a devout Catholic, 
+          he has celebrated his goals by looking up and pointing to the sky in tribute to his grandmother.</p>
+</div>
+</body>
+</html>
